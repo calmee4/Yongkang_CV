@@ -51,7 +51,8 @@ Experience
         I work on multimodal post-training, evaluation, data-centric iteration, and end-to-end
         experimental pipelines for real product settings. A large part of my internship is turning
         research ideas into reproducible loops across data construction, controlled ablations,
-        automatic evaluation, and efficient inference and serving.
+        automatic evaluation, and efficient inference and serving. Mentor:
+        <a href="https://hsing-wang.github.io/academic_homepage/" target="_blank" rel="noopener">Xing Wang</a>.
       </span>
     </div>
   </div>
