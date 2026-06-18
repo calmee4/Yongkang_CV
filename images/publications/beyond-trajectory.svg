@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" fill="none">
+  <rect width="480" height="320" rx="28" fill="#F8F6FC"/>
+  <rect x="18" y="18" width="444" height="284" rx="22" fill="#FFFFFF" stroke="#E0D7EC"/>
+  <text x="34" y="52" fill="#5A4A6F" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Beyond Trajectory</text>
+  <text x="34" y="78" fill="#6F667A" font-family="Arial, Helvetica, sans-serif" font-size="15">Explicit case-based memory for GUI agents</text>
+
+  <rect x="36" y="108" width="122" height="148" rx="20" fill="#F1ECF8" stroke="#D7C8EA"/>
+  <rect x="52" y="126" width="90" height="28" rx="8" fill="#DCCEF0"/>
+  <rect x="52" y="162" width="44" height="24" rx="8" fill="#DCCEF0"/>
+  <rect x="102" y="162" width="40" height="24" rx="8" fill="#DCCEF0"/>
+  <rect x="52" y="194" width="90" height="42" rx="10" fill="#C5B0E6"/>
+  <text x="54" y="248" fill="#5C5470" font-family="Arial, Helvetica, sans-serif" font-size="13">Structured case</text>
+
+  <path d="M168 180H206" stroke="#9E8DBD" stroke-width="8" stroke-linecap="round"/>
+  <path d="M198 168L214 180L198 192" stroke="#9E8DBD" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="220" y="108" width="88" height="148" rx="20" fill="#FBF9FE" stroke="#DEDBF3"/>
+  <circle cx="264" cy="142" r="14" fill="#8064B2"/>
+  <circle cx="248" cy="180" r="10" fill="#C7BAE7"/>
+  <circle cx="280" cy="180" r="10" fill="#C7BAE7"/>
+  <circle cx="264" cy="214" r="10" fill="#C7BAE7"/>
+  <path d="M264 156V170M256 186L264 204L272 186" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="236" y="248" fill="#5C5470" font-family="Arial, Helvetica, sans-serif" font-size="13">Retrieve</text>
+
+  <path d="M318 180H356" stroke="#9E8DBD" stroke-width="8" stroke-linecap="round"/>
+  <path d="M348 168L364 180L348 192" stroke="#9E8DBD" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="370" y="108" width="74" height="148" rx="20" fill="#F3F0FA" stroke="#D6CDE9"/>
+  <rect x="386" y="130" width="42" height="20" rx="6" fill="#CBBBEA"/>
+  <rect x="386" y="158" width="42" height="20" rx="6" fill="#CBBBEA"/>
+  <rect x="386" y="186" width="42" height="20" rx="6" fill="#8064B2"/>
+  <rect x="386" y="214" width="42" height="20" rx="6" fill="#CBBBEA"/>
+  <text x="381" y="248" fill="#5C5470" font-family="Arial, Helvetica, sans-serif" font-size="13">Reuse</text>
+</svg>

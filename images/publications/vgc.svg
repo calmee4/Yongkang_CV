@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" fill="none">
+  <rect width="480" height="320" rx="28" fill="#FFF7F3"/>
+  <rect x="18" y="18" width="444" height="284" rx="22" fill="#FFFFFF" stroke="#F0D8CA"/>
+  <text x="34" y="52" fill="#9A573A" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">VGC</text>
+  <text x="34" y="78" fill="#7E6B63" font-family="Arial, Helvetica, sans-serif" font-size="15">Visual Grounding Chain-of-Thought</text>
+
+  <rect x="38" y="114" width="104" height="92" rx="18" fill="#FFF0E8" stroke="#F0CDB9"/>
+  <rect x="54" y="130" width="72" height="44" rx="10" fill="#F6D6C5"/>
+  <circle cx="80" cy="152" r="12" fill="#E27B56"/>
+  <circle cx="102" cy="152" r="8" fill="#B29CC7"/>
+  <circle cx="116" cy="160" r="6" fill="#E3B766"/>
+  <text x="51" y="192" fill="#755E56" font-family="Arial, Helvetica, sans-serif" font-size="13">Visual evidence</text>
+
+  <path d="M154 160H192" stroke="#D4A88F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M184 148L200 160L184 172" stroke="#D4A88F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="210" y="114" width="122" height="92" rx="18" fill="#FFF8F4" stroke="#EAD8CE"/>
+  <rect x="230" y="132" width="82" height="14" rx="7" fill="#F2DED2"/>
+  <rect x="230" y="154" width="72" height="14" rx="7" fill="#F2DED2"/>
+  <rect x="230" y="176" width="92" height="14" rx="7" fill="#F2DED2"/>
+  <text x="244" y="192" fill="#755E56" font-family="Arial, Helvetica, sans-serif" font-size="13">Reason first</text>
+
+  <path d="M344 160H382" stroke="#D4A88F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M374 148L390 160L374 172" stroke="#D4A88F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="398" y="114" width="46" height="92" rx="18" fill="#F6FBF7" stroke="#D6E5DB"/>
+  <path d="M408 162L418 172L434 146" stroke="#2F8A64" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="405" y="192" fill="#5D6E66" font-family="Arial, Helvetica, sans-serif" font-size="13">Answer</text>
+
+  <rect x="60" y="232" width="350" height="30" rx="15" fill="#FFF3ED"/>
+  <text x="76" y="252" fill="#9A573A" font-family="Arial, Helvetica, sans-serif" font-size="14">Reduce the compliance gap between claimed and actual evidence use</text>
+</svg>

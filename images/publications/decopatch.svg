@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" fill="none">
+  <rect width="480" height="320" rx="28" fill="#F5FAFC"/>
+  <rect x="18" y="18" width="444" height="284" rx="22" fill="#FFFFFF" stroke="#D6E5EC"/>
+  <text x="34" y="52" fill="#244E60" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">DeCoPatch</text>
+  <text x="34" y="78" fill="#5C6F78" font-family="Arial, Helvetica, sans-serif" font-size="15">Causal latent subspaces for GUI grounding</text>
+
+  <rect x="36" y="110" width="116" height="142" rx="18" fill="#EEF5F8" stroke="#C6D9E1"/>
+  <rect x="52" y="128" width="34" height="20" rx="6" fill="#D2E7EF"/>
+  <rect x="94" y="128" width="42" height="20" rx="6" fill="#D2E7EF"/>
+  <rect x="52" y="156" width="84" height="20" rx="6" fill="#D2E7EF"/>
+  <rect x="52" y="184" width="26" height="42" rx="6" fill="#D2E7EF"/>
+  <rect x="86" y="184" width="50" height="42" rx="6" fill="#D2E7EF"/>
+  <circle cx="122" cy="216" r="10" fill="#E96B5A"/>
+  <circle cx="122" cy="216" r="18" stroke="#E96B5A" stroke-opacity=".28" stroke-width="8"/>
+  <text x="52" y="245" fill="#47606B" font-family="Arial, Helvetica, sans-serif" font-size="13">GUI + marker</text>
+
+  <path d="M164 180H204" stroke="#87A8B8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M196 168L212 180L196 192" stroke="#87A8B8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="218" y="104" width="92" height="152" rx="18" fill="#F3F7FA" stroke="#D6E3E9"/>
+  <rect x="238" y="128" width="12" height="104" rx="6" fill="#BFD7E0"/>
+  <rect x="258" y="118" width="12" height="114" rx="6" fill="#6D9BB0"/>
+  <rect x="278" y="144" width="12" height="88" rx="6" fill="#BFD7E0"/>
+  <rect x="238" y="150" width="52" height="16" rx="8" fill="#E96B5A"/>
+  <rect x="238" y="178" width="52" height="16" rx="8" fill="#E96B5A"/>
+  <text x="235" y="245" fill="#47606B" font-family="Arial, Helvetica, sans-serif" font-size="13">Top-k neurons</text>
+
+  <path d="M322 180H362" stroke="#87A8B8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M354 168L370 180L354 192" stroke="#87A8B8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="376" y="110" width="68" height="142" rx="18" fill="#EEF8F4" stroke="#CCE1D8"/>
+  <rect x="392" y="128" width="36" height="24" rx="6" fill="#D7ECE4"/>
+  <rect x="392" y="160" width="20" height="20" rx="6" fill="#D7ECE4"/>
+  <rect x="416" y="160" width="12" height="20" rx="6" fill="#D7ECE4"/>
+  <circle cx="410" cy="214" r="16" stroke="#2F8A64" stroke-width="6"/>
+  <path d="M410 190V238M386 214H434" stroke="#2F8A64" stroke-width="6" stroke-linecap="round"/>
+  <text x="386" y="245" fill="#47606B" font-family="Arial, Helvetica, sans-serif" font-size="13">Patched</text>
+</svg>

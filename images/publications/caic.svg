@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" fill="none">
+  <rect width="480" height="320" rx="28" fill="#F4FBF7"/>
+  <rect x="18" y="18" width="444" height="284" rx="22" fill="#FFFFFF" stroke="#D8E9DE"/>
+  <text x="34" y="52" fill="#2F6F4E" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">CAIC</text>
+  <text x="34" y="78" fill="#5C7267" font-family="Arial, Helvetica, sans-serif" font-size="15">Congestion-aware intent communication</text>
+
+  <circle cx="82" cy="140" r="22" fill="#71A782"/>
+  <circle cx="82" cy="220" r="22" fill="#71A782"/>
+  <circle cx="154" cy="140" r="22" fill="#71A782"/>
+  <circle cx="154" cy="220" r="22" fill="#71A782"/>
+  <text x="68" y="146" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">A1</text>
+  <text x="68" y="226" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">A2</text>
+  <text x="140" y="146" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">A3</text>
+  <text x="140" y="226" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">A4</text>
+
+  <path d="M178 140H216M178 220H216M104 161L140 199M140 161L104 199" stroke="#8EB9A0" stroke-width="6" stroke-linecap="round"/>
+
+  <rect x="224" y="112" width="68" height="136" rx="18" fill="#EEF8F1" stroke="#CDE2D4"/>
+  <rect x="242" y="132" width="32" height="14" rx="7" fill="#BDD9C7"/>
+  <rect x="236" y="154" width="44" height="14" rx="7" fill="#7DB08E"/>
+  <rect x="242" y="176" width="32" height="14" rx="7" fill="#BDD9C7"/>
+  <rect x="236" y="198" width="44" height="14" rx="7" fill="#E1B05D"/>
+  <text x="236" y="236" fill="#4E675B" font-family="Arial, Helvetica, sans-serif" font-size="13">Queue</text>
+
+  <path d="M304 180H344" stroke="#8EB9A0" stroke-width="8" stroke-linecap="round"/>
+  <path d="M336 168L352 180L336 192" stroke="#8EB9A0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="360" y="116" width="82" height="132" rx="18" fill="#F7FBF8" stroke="#D9E8DD"/>
+  <path d="M382 156L402 136L420 150" stroke="#2F8A64" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M382 208L398 192L410 198L420 178" stroke="#E1B05D" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="376" y="236" fill="#4E675B" font-family="Arial, Helvetica, sans-serif" font-size="13">Delay-robust policy</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" fill="none">
+  <rect width="480" height="320" rx="28" fill="#F4F8FB"/>
+  <rect x="18" y="18" width="444" height="284" rx="22" fill="#FFFFFF" stroke="#D6E0E8"/>
+  <text x="34" y="52" fill="#2E4A5A" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">PDMS</text>
+  <text x="34" y="78" fill="#687A85" font-family="Arial, Helvetica, sans-serif" font-size="15">Preference data management for RLHF</text>
+
+  <rect x="38" y="110" width="100" height="146" rx="18" fill="#F1F6F9" stroke="#D9E5EB"/>
+  <rect x="54" y="130" width="68" height="18" rx="6" fill="#C8D7E0"/>
+  <rect x="54" y="156" width="68" height="18" rx="6" fill="#C8D7E0"/>
+  <rect x="54" y="182" width="68" height="18" rx="6" fill="#8FA9B9"/>
+  <rect x="54" y="208" width="68" height="18" rx="6" fill="#C8D7E0"/>
+  <text x="54" y="240" fill="#51646F" font-family="Arial, Helvetica, sans-serif" font-size="13">Preference pool</text>
+
+  <path d="M150 180H188" stroke="#8BA4B2" stroke-width="8" stroke-linecap="round"/>
+  <path d="M180 168L196 180L180 192" stroke="#8BA4B2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="204" y="110" width="82" height="146" rx="18" fill="#FBFCFD" stroke="#DCE6EC"/>
+  <circle cx="245" cy="145" r="18" fill="#E5B25E"/>
+  <path d="M245 134V145L254 150" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="222" y="180" width="46" height="16" rx="8" fill="#6D8EA2"/>
+  <rect x="216" y="204" width="58" height="16" rx="8" fill="#A9BFCC"/>
+  <text x="222" y="240" fill="#51646F" font-family="Arial, Helvetica, sans-serif" font-size="13">SNR / budget</text>
+
+  <path d="M298 180H336" stroke="#8BA4B2" stroke-width="8" stroke-linecap="round"/>
+  <path d="M328 168L344 180L328 192" stroke="#8BA4B2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="352" y="110" width="92" height="146" rx="18" fill="#F4FAF7" stroke="#D7E6DC"/>
+  <path d="M370 164L386 180L410 146" stroke="#2F8A64" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="416" cy="198" r="14" fill="#D7E8DE" stroke="#78A38B" stroke-width="4"/>
+  <path d="M416 188V208M406 198H426" stroke="#78A38B" stroke-width="4" stroke-linecap="round"/>
+  <text x="368" y="240" fill="#51646F" font-family="Arial, Helvetica, sans-serif" font-size="13">Audit / transfer</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" fill="none">
+  <rect width="480" height="320" rx="28" fill="#F3F8FC"/>
+  <rect x="18" y="18" width="444" height="284" rx="22" fill="#FFFFFF" stroke="#D6E4EE"/>
+  <text x="34" y="52" fill="#31546B" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Don't Default to CLIP</text>
+  <text x="34" y="78" fill="#6B7B86" font-family="Arial, Helvetica, sans-serif" font-size="15">A cost-based optimizer for embedding selection</text>
+
+  <rect x="40" y="112" width="120" height="126" rx="18" fill="#F7FBFE" stroke="#D9E8F0"/>
+  <path d="M64 214L92 168L116 194L140 142" stroke="#6A8FA8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="92" cy="168" r="8" fill="#6A8FA8"/>
+  <circle cx="116" cy="194" r="8" fill="#6A8FA8"/>
+  <circle cx="140" cy="142" r="8" fill="#6A8FA8"/>
+  <text x="58" y="228" fill="#5B6E7A" font-family="Arial, Helvetica, sans-serif" font-size="13">Backbone A</text>
+
+  <path d="M172 176H216" stroke="#95B1C4" stroke-width="8" stroke-linecap="round"/>
+  <path d="M208 164L224 176L208 188" stroke="#95B1C4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M188 136V216" stroke="#E7B96D" stroke-width="6" stroke-dasharray="8 8" stroke-linecap="round"/>
+
+  <rect x="232" y="112" width="92" height="126" rx="18" fill="#FFF8EE" stroke="#F0DFC0"/>
+  <path d="M252 214L270 186L286 198L304 146" stroke="#E7B96D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="270" cy="186" r="7" fill="#E7B96D"/>
+  <circle cx="286" cy="198" r="7" fill="#E7B96D"/>
+  <circle cx="304" cy="146" r="7" fill="#E7B96D"/>
+  <text x="245" y="228" fill="#7A6A54" font-family="Arial, Helvetica, sans-serif" font-size="13">Forced CLIP align</text>
+
+  <path d="M336 176H374" stroke="#95B1C4" stroke-width="8" stroke-linecap="round"/>
+  <path d="M366 164L382 176L366 188" stroke="#95B1C4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="390" y="112" width="56" height="126" rx="18" fill="#F4FBF7" stroke="#D8E7DD"/>
+  <path d="M404 172L416 184L434 152" stroke="#2F8A64" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="399" y="228" fill="#5B6E7A" font-family="Arial, Helvetica, sans-serif" font-size="13">Select</text>
+</svg>
