@@ -197,39 +197,7 @@ Publications
 
   <div class="publication-card" data-category="all">
     <div class="publication-layout">
-      <a class="pub-figure pub-figure--neurips" href="{{ '/publications/vgc/' | relative_url }}">
-        <img src="{{ '/images/publications/vgc.png' | relative_url }}" alt="Figure for Visual Grounding Chain-of-Thought" loading="lazy">
-        <div class="pub-figure-label">
-          <span>NeurIPS 2026</span>
-          <small>VGC</small>
-        </div>
-      </a>
-      <div class="publication-content">
-        <strong class="publication-title">Visual Grounding Chain-of-Thought: Structural Constraints Improve Multimodal Reasoning Accuracy</strong>
-        <div class="paper-meta">
-          <span class="pub-list-badge">NeurIPS 2026</span>
-          <span class="pub-status pub-status--review">Under Review</span>
-          <span>CCF-A</span>
-          <span>First Author</span>
-          <span>2026.02 - 2026.05</span>
-        </div>
-        <div class="paper-summary">
-          VGC studies the compliance gap in multimodal reasoning and shows that forcing the generation
-          order to follow visual evidence, then reasoning, then answer substantially improves both
-          accuracy and actual visual grounding.
-        </div>
-        <div class="paper-actions">
-          <a class="paper-action" href="{{ '/publications/vgc/' | relative_url }}#overview">Overview</a>
-          <a class="paper-action paper-action--ghost" href="{{ '/images/publications/vgc.png' | relative_url }}">Main Figure</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="publication-card" data-category="all">
-    <div class="publication-layout">
-      <a class="pub-figure pub-figure--neurips" href="{{ '/publications/mobilegen/' | relative_url }}">
-        <img src="{{ '/images/publications/mobilegen.png' | relative_url }}" alt="Figure for MobileGen" loading="lazy">
+      <a class="pub-figure pub-figure--neurips" href="{{ '/publications/mobilegen/' | relative_url }}">        <img src="{{ '/images/publications/mobilegen.png' | relative_url }}" alt="Figure for MobileGen" loading="lazy">
         <div class="pub-figure-label">
           <span>NeurIPS 2026</span>
           <small>MobileGen</small>
@@ -252,68 +220,6 @@ Publications
         <div class="paper-actions">
           <a class="paper-action" href="{{ '/publications/mobilegen/' | relative_url }}#overview">Overview</a>
           <a class="paper-action paper-action--ghost" href="{{ '/images/publications/mobilegen.png' | relative_url }}">Main Figure</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="publication-card" data-category="all">
-    <div class="publication-layout">
-      <a class="pub-figure pub-figure--vldb" href="{{ '/publications/pdms/' | relative_url }}">
-        <img src="{{ '/images/publications/pdms.png' | relative_url }}" alt="Figure for PDMS" loading="lazy">
-        <div class="pub-figure-label">
-          <span>VLDB 2026</span>
-          <small>PDMS</small>
-        </div>
-      </a>
-      <div class="publication-content">
-        <strong class="publication-title">PDMS: A Preference Data Management System for RLHF</strong>
-        <div class="paper-meta">
-          <span class="pub-list-badge">VLDB 2026</span>
-          <span class="pub-status pub-status--review">Under Review</span>
-          <span>CCF-A</span>
-          <span>First Author</span>
-          <span>2026.03 - 2026.06</span>
-        </div>
-        <div class="paper-summary">
-          PDMS treats RLHF preference data as a data systems problem and introduces a lightweight stack
-          for SNR diagnosis, budget-aware selection, cross-model auditing, and transfer prediction
-          before expensive reward-model training is launched.
-        </div>
-        <div class="paper-actions">
-          <a class="paper-action" href="{{ '/publications/pdms/' | relative_url }}#overview">Overview</a>
-          <a class="paper-action paper-action--ghost" href="{{ '/images/publications/pdms.png' | relative_url }}">Main Figure</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="publication-card" data-category="all">
-    <div class="publication-layout">
-      <a class="pub-figure pub-figure--vldb" href="{{ '/publications/ddtc/' | relative_url }}">
-        <img src="{{ '/images/publications/ddtc.png' | relative_url }}" alt="Figure for Don't Default to CLIP" loading="lazy">
-        <div class="pub-figure-label">
-          <span>VLDB 2026</span>
-          <small>DDtC</small>
-        </div>
-      </a>
-      <div class="publication-content">
-        <strong class="publication-title">Don't Default to CLIP: A Cost-Based Optimizer for Embedding Selection</strong>
-        <div class="paper-meta">
-          <span class="pub-list-badge">VLDB 2026</span>
-          <span class="pub-status pub-status--review">Under Review</span>
-          <span>CCF-A</span>
-          <span>First Author</span>
-          <span>2026.03 - 2026.06</span>
-        </div>
-        <div class="paper-summary">
-          Starting from a concrete cost paradox where a tiny low-storage CoCa setting beats the
-          conventional CLIP default, this work reframes embedding choice as a physical-design problem
-          and builds a Pareto Catalog over model, dimension, and precision.
-        </div>
-        <div class="paper-actions">
-          <a class="paper-action" href="{{ '/publications/ddtc/' | relative_url }}#overview">Overview</a>
-          <a class="paper-action paper-action--ghost" href="{{ '/images/publications/ddtc.png' | relative_url }}">Main Figure</a>
         </div>
       </div>
     </div>
@@ -346,30 +252,9 @@ Publications
     <li>
       <span class="pub-list-badge">NeurIPS 2026</span>
       <span class="pub-status pub-status--review">Under Review</span>
-      <span class="pub-list-title">Visual Grounding Chain-of-Thought: Structural Constraints Improve Multimodal Reasoning Accuracy</span><br>
-      <span class="pub-list-authors">First Author · CCF-A · 2026.02 - 2026.05</span>
-      <span class="pub-list-note">Structured multimodal reasoning that reduces the compliance gap between claimed and actual evidence use. <a class="pub-inline-link" href="{{ '/publications/vgc/' | relative_url }}#overview">Overview</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">NeurIPS 2026</span>
-      <span class="pub-status pub-status--review">Under Review</span>
       <span class="pub-list-title">Learning with Challenges: Adaptive Difficulty-Aware Data Generation for Mobile GUI Agent Training</span><br>
       <span class="pub-list-authors">Co-first, Third Author · CCF-A · 2025.12 - 2026.03</span>
       <span class="pub-list-note">Capability-aligned trajectory generation around the agent's challenge point. <a class="pub-inline-link" href="{{ '/publications/mobilegen/' | relative_url }}#overview">Overview</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">VLDB 2026</span>
-      <span class="pub-status pub-status--review">Under Review</span>
-      <span class="pub-list-title">PDMS: A Preference Data Management System for RLHF</span><br>
-      <span class="pub-list-authors">First Author · CCF-A · 2026.03 - 2026.06</span>
-      <span class="pub-list-note">RLHF preference data management with SNR diagnosis, selection, auditing, and transfer prediction. <a class="pub-inline-link" href="{{ '/publications/pdms/' | relative_url }}#overview">Overview</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">VLDB 2026</span>
-      <span class="pub-status pub-status--review">Under Review</span>
-      <span class="pub-list-title">Don't Default to CLIP: A Cost-Based Optimizer for Embedding Selection</span><br>
-      <span class="pub-list-authors">First Author · CCF-A · 2026.03 - 2026.06</span>
-      <span class="pub-list-note">A physical-design view of embedding selection, motivated by the cost paradox of small configurations beating the default CLIP baseline. <a class="pub-inline-link" href="{{ '/publications/ddtc/' | relative_url }}#overview">Overview</a></span>
     </li>
   </ul>
 </div>
