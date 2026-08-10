@@ -201,6 +201,31 @@ Publications
 
   <div class="publication-card" data-category="all">
     <div class="publication-layout">
+      <div class="pub-figure pub-figure--neurips">
+        <div class="pub-figure-label">
+          <span>NeurIPS 2026</span>
+          <small>IBPO</small>
+        </div>
+      </div>
+      <div class="publication-content">
+        <strong class="publication-title">Reducing Credit Assignment Variance via Counterfactual Reasoning Paths</strong>
+        <div class="paper-meta">
+          <span class="pub-list-badge">NeurIPS 2026</span>
+          <span class="pub-status pub-status--review">Under Review</span>
+          <span>CCF-A</span>
+          <span>Co-first, Second Author</span>
+        </div>
+        <div class="paper-summary">
+          IBPO reduces credit-assignment variance in LLM RL under sparse terminal rewards by comparing
+          counterfactual multi-step reasoning trajectories and constructing an implicit process-level
+          advantage, improving training stability on math and code reasoning benchmarks.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="publication-card" data-category="all">
+    <div class="publication-layout">
       <a class="pub-figure pub-figure--neurips" href="{{ '/publications/mobilegen/' | relative_url }}">        <img src="{{ '/images/publications/mobilegen.png' | relative_url }}" alt="Figure for MobileGen" loading="lazy">
         <div class="pub-figure-label">
           <span>NeurIPS 2026</span>
@@ -252,6 +277,13 @@ Publications
       <span class="pub-list-title">CAIC: Congestion-Aware Intent Communication for Multi-Agent Reinforcement Learning</span><br>
       <span class="pub-list-authors">Second Author · CCF-B · 2025.07 - 2025.09</span>
       <span class="pub-list-note">Delay-aware intent communication under shared-channel congestion and queueing delay. <a class="pub-inline-link" href="{{ '/publications/caic/' | relative_url }}#overview">Overview</a></span>
+    </li>
+    <li>
+      <span class="pub-list-badge">NeurIPS 2026</span>
+      <span class="pub-status pub-status--review">Under Review</span>
+      <span class="pub-list-title">Reducing Credit Assignment Variance via Counterfactual Reasoning Paths</span><br>
+      <span class="pub-list-authors">Co-first, Second Author · CCF-A</span>
+      <span class="pub-list-note">IBPO: counterfactual trajectory comparison for process-level credit assignment in LLM RL.</span>
     </li>
     <li>
       <span class="pub-list-badge">NeurIPS 2026</span>
