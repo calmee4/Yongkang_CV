@@ -67,8 +67,10 @@ Experience
       B.E. in Computer Science and Technology<br>
       <span class="experience-note">
         Consecutive five-semester major rank <strong>1 / 114</strong>, average score
-        <strong>93.46</strong>, GPA <strong>3.93 / 4.00</strong>. My undergraduate research has
-        centered on GUI grounding, agent memory, multimodal reasoning, and multi-agent learning.
+        <strong>93.6</strong>, GPA <strong>3.95 / 4.00</strong>, and National Scholarship twice.
+        My undergraduate research spans multimodal large models, GUI agents, vision–language
+        reasoning, and multi-agent collaboration; I am now moving toward world models, long-video
+        generation, and human-motion generation.
       </span>
     </div>
   </div>
