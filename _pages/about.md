@@ -20,14 +20,15 @@ redirect_from:
 
   <p>
     My recent work focuses on <strong>multimodal large models</strong>, <strong>GUI agents</strong>,
-    <strong>multimodal reasoning</strong>, and <strong>research engineering</strong> for large-scale
-    training, automatic evaluation, and serving-oriented experimentation.
+    <strong>vision–language reasoning</strong>, and <strong>multi-agent collaboration</strong>,
+    with research engineering for large-scale training, automatic evaluation, and serving-oriented
+    experimentation.
   </p>
 
   <p>
-    I am currently most interested in <strong>3D-GS</strong> and
-    <strong>long video generation</strong>, especially problems around controllable generation,
-    long-horizon consistency, and scalable experimentation.
+    I am currently moving toward <strong>world models</strong>, <strong>long-video generation</strong>,
+    and <strong>human-motion generation</strong>, especially controllable generation, long-horizon
+    consistency, and scalable experimentation.
   </p>
 
   <p>
@@ -82,10 +83,11 @@ Experience
     <div class="experience-info">
       <strong>Current Research Direction</strong><br>
       <em>2026 - Present</em><br>
-      3D-GS and Long Video Generation<br>
+      World Models and Video Generation<br>
       <span class="experience-note">
-        I am currently interested in controllable dynamic scene representation, temporal consistency,
-        and scalable training and evaluation pipelines for long-horizon generative systems.
+        I am currently focused on world models and video generation, especially interactive /
+        long-horizon video world models, controllable human-motion generation, temporal consistency,
+        and scalable training and evaluation pipelines for generative systems.
       </span>
     </div>
   </div>
