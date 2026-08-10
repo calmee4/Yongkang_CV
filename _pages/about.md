@@ -26,8 +26,8 @@ redirect_from:
   </p>
 
   <p>
-    I am currently moving toward <strong>world models</strong>, <strong>long-video generation</strong>,
-    and <strong>human-motion generation</strong>, especially controllable generation, long-horizon
+    I am currently moving toward <strong>world models</strong> and
+    <strong>long-video generation</strong>, especially controllable generation, long-horizon
     consistency, and scalable experimentation.
   </p>
 
@@ -70,8 +70,8 @@ Experience
         Consecutive five-semester major rank <strong>1 / 114</strong>, average score
         <strong>93.6</strong>, GPA <strong>3.95 / 4.00</strong>, and National Scholarship twice.
         My undergraduate research spans multimodal large models, GUI agents, vision–language
-        reasoning, and multi-agent collaboration; I am now moving toward world models, long-video
-        generation, and human-motion generation.
+        reasoning, and multi-agent collaboration; I am now moving toward world models and long-video
+        generation.
       </span>
     </div>
   </div>
@@ -86,7 +86,7 @@ Experience
       World Models and Video Generation<br>
       <span class="experience-note">
         I am currently focused on world models and video generation, especially interactive /
-        long-horizon video world models, controllable human-motion generation, temporal consistency,
+        long-horizon video world models, controllable generation, temporal consistency,
         and scalable training and evaluation pipelines for generative systems.
       </span>
     </div>
