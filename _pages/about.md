@@ -183,7 +183,7 @@ Publications
           <span class="pub-list-badge">UAI 2026</span>
           <span class="pub-status pub-status--accepted">Accepted</span>
           <span>CCF-B</span>
-          <span>Co-first, Second Author</span>
+          <span>Second Author</span>
           <span>2025.07 - 2025.09</span>
         </div>
         <div class="paper-summary">
@@ -250,7 +250,7 @@ Publications
       <span class="pub-list-badge">UAI 2026</span>
       <span class="pub-status pub-status--accepted">Accepted</span>
       <span class="pub-list-title">CAIC: Congestion-Aware Intent Communication for Multi-Agent Reinforcement Learning</span><br>
-      <span class="pub-list-authors">Co-first, Second Author · CCF-B · 2025.07 - 2025.09</span>
+      <span class="pub-list-authors">Second Author · CCF-B · 2025.07 - 2025.09</span>
       <span class="pub-list-note">Delay-aware intent communication under shared-channel congestion and queueing delay. <a class="pub-inline-link" href="{{ '/publications/caic/' | relative_url }}#overview">Overview</a></span>
     </li>
     <li>
