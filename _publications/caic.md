@@ -17,7 +17,7 @@ comments: false
     <span class="paper-tag">UAI 2026</span>
     <span class="paper-tag">Accepted</span>
     <span class="paper-tag">CCF-B</span>
-    <span class="paper-tag">Co-first, Second Author</span>
+    <span class="paper-tag">Co-first, 2nd</span>
     <span class="paper-tag">2025.07 - 2025.09</span>
   </div>
   <p><strong>Overview.</strong> CAIC studies a bottleneck that most MARL communication papers ignore: messages are not delivered on a magic zero-delay channel. When multiple agents share a channel, queueing delay becomes an endogenous part of the system.</p>
