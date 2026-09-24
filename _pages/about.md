@@ -49,10 +49,11 @@ Experience
     <div class="experience-info">
       <strong>Peking University</strong><br>
       <em>2026.09 - Present · Beijing</em><br>
-      Incoming Ph.D. Student<br>
+      Incoming Ph.D. Student in Computer Science and Technology<br>
       <span class="experience-note">
-        Starting Ph.D. study at Peking University from <strong>2026.09</strong>.
-        Research interests: multimodal large models, video generation, and reinforcement learning.
+        Starting Ph.D. study in <strong>Computer Science and Technology</strong> at Peking University from
+        <strong>2026.09</strong>. Research interests: multimodal large models, video generation, and
+        reinforcement learning.
       </span>
     </div>
   </div>
