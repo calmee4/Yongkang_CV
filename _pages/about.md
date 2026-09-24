@@ -202,6 +202,38 @@ Publications
 
   <div class="publication-card" data-category="all">
     <div class="publication-layout">
+      <a class="pub-figure pub-figure--bibm" href="{{ '/publications/dicon/' | relative_url }}">
+        <img src="{{ '/images/publications/dicon.png' | relative_url }}" alt="Figure for DiCon" loading="lazy">
+        <div class="pub-figure-label">
+          <span>BIBM 2026</span>
+          <small>DiCon</small>
+        </div>
+      </a>
+      <div class="publication-content">
+        <strong class="publication-title">DiCon: A Synergy-Aware Framework for Medication Recommendation via Signed Drug Interaction Modeling and Contextual Pre-training</strong>
+        <div class="paper-meta">
+          <span class="pub-list-badge">BIBM 2026</span>
+          <span class="pub-status pub-status--accepted">Accepted</span>
+          <span>Regular / Full Paper Oral</span>
+          <span>CCF-B</span>
+          <span>First Author</span>
+          <span>2025.03 - 2025.10</span>
+        </div>
+        <div class="paper-summary">
+          DiCon models medication recommendation with dual-signed drug–drug interactions and
+          cross-modal EHR pre-training, jointly capturing synergistic and adverse relations while
+          aligning diagnoses, procedures, and prescriptions under sparse visit histories.
+        </div>
+        <div class="paper-actions">
+          <a class="paper-action" href="{{ '/publications/dicon/' | relative_url }}#overview">Overview</a>
+          <a class="paper-action paper-action--ghost" href="{{ '/images/publications/dicon.png' | relative_url }}">Main Figure</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="publication-card" data-category="all">
+    <div class="publication-layout">
       <div class="pub-figure pub-figure--neurips">
         <div class="pub-figure-label">
           <span>NeurIPS 2026</span>
@@ -278,6 +310,13 @@ Publications
       <span class="pub-list-title">CAIC: Congestion-Aware Intent Communication for Multi-Agent Reinforcement Learning</span><br>
       <span class="pub-list-authors">Co-first, 2nd · CCF-B · 2025.07 - 2025.09</span>
       <span class="pub-list-note">Delay-aware intent communication under shared-channel congestion and queueing delay. <a class="pub-inline-link" href="{{ '/publications/caic/' | relative_url }}#overview">Overview</a></span>
+    </li>
+    <li>
+      <span class="pub-list-badge">BIBM 2026</span>
+      <span class="pub-status pub-status--accepted">Accepted</span>
+      <span class="pub-list-title">DiCon: A Synergy-Aware Framework for Medication Recommendation via Signed Drug Interaction Modeling and Contextual Pre-training</span><br>
+      <span class="pub-list-authors">First Author · Regular / Full Paper Oral · CCF-B · 2025.03 - 2025.10</span>
+      <span class="pub-list-note">Dual-signed DDI modeling and cross-modal EHR pre-training for synergy-aware medication recommendation. <a class="pub-inline-link" href="{{ '/publications/dicon/' | relative_url }}#overview">Overview</a></span>
     </li>
     <li>
       <span class="pub-list-badge">NeurIPS 2026</span>

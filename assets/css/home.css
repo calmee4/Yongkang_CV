@@ -419,6 +419,10 @@
   background: linear-gradient(135deg, #eef3f6 0%, #f7eee8 100%);
 }
 
+.pub-figure--bibm {
+  background: linear-gradient(135deg, #eef5f2 0%, #eef1f8 100%);
+}
+
 .publication-content {
   min-width: 0;
   display: flex;
