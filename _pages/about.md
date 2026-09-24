@@ -12,7 +12,8 @@ redirect_from:
   <h1 class="main-heading">Yongkang Zhang</h1>
 
   <p class="lead-paragraph">
-    I am Yongkang Zhang, an <strong>Incoming Ph.D. student in Computer Science and Technology at Peking University</strong>
+    I am Yongkang Zhang, a Ph.D. student in Computer Science and Technology at
+    <strong>Peking University Shenzhen Graduate School</strong>
     (from <strong>2026.09</strong>), currently finishing my B.E. in Computer Science at
     <strong>Huazhong Agricultural University</strong>, and a long-term
     <strong>Multimodal Large Model Algorithm Intern</strong> at
@@ -47,13 +48,13 @@ Experience
       <img class="experience-logo experience-logo--pku" src="{{ '/images/icons/pku.png' | relative_url }}" alt="Peking University">
     </div>
     <div class="experience-info">
-      <strong>Peking University</strong><br>
-      <em>2026.09 - Present · Beijing</em><br>
-      Incoming Ph.D. Student in Computer Science and Technology<br>
+      <strong>Peking University Shenzhen Graduate School</strong><br>
+      <em>2026.09 - Present · Shenzhen</em><br>
+      Ph.D. Student in Computer Science and Technology<br>
       <span class="experience-note">
-        Starting Ph.D. study in <strong>Computer Science and Technology</strong> at Peking University from
-        <strong>2026.09</strong>. Research interests: multimodal large models, video generation, and
-        reinforcement learning.
+        Ph.D. in <strong>Computer Science and Technology</strong> at Peking University Shenzhen
+        Graduate School from <strong>2026.09</strong>. Research interests: multimodal large models,
+        video generation, and reinforcement learning.
       </span>
     </div>
   </div>
