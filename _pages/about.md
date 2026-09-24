@@ -234,7 +234,7 @@ Publications
           <span>Regular / Full Paper Oral</span>
           <span>CCF-B</span>
           <span>First Author</span>
-          <span>2025.03 - 2025.10</span>
+          <span>2025.03 - 2025.07</span>
         </div>
         <div class="paper-summary">
           DiCon recommends safer and more synergistic drug combinations from EHRs by combining
@@ -333,7 +333,7 @@ Publications
       <span class="pub-list-badge">BIBM 2026</span>
       <span class="pub-status pub-status--accepted">Accepted</span>
       <span class="pub-list-title">DiCon: A Synergy-Aware Framework for Medication Recommendation via Signed Drug Interaction Modeling and Contextual Pre-training</span><br>
-      <span class="pub-list-authors">First Author · Regular / Full Paper Oral · CCF-B · 2025.03 - 2025.10</span>
+      <span class="pub-list-authors">First Author · Regular / Full Paper Oral · CCF-B · 2025.03 - 2025.07</span>
       <span class="pub-list-note">CLIP-style InfoNCE pre-training over D/P/M + dual-signed DDI graph + PDR for synergy-aware medication recommendation. <a class="pub-inline-link" href="{{ '/publications/dicon/' | relative_url }}#overview">Overview</a></span>
     </li>
     <li>

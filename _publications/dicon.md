@@ -19,7 +19,7 @@ comments: false
     <span class="paper-tag">Regular / Full Paper Oral</span>
     <span class="paper-tag">CCF-B</span>
     <span class="paper-tag">First Author</span>
-    <span class="paper-tag">2025.03 - 2025.10</span>
+    <span class="paper-tag">2025.03 - 2025.07</span>
   </div>
   <p><strong>Overview.</strong> Medication recommendation from EHRs must do two hard things at once: integrate sparse, heterogeneous clinical codes (diagnoses, procedures, medications), and prescribe combinations that are not only safe but also therapeutically synergistic. Most prior systems treat drug–drug interactions as <em>negative-only</em> constraints and leave beneficial co-prescription signals unused; their pre-training also usually aligns only a pair of modalities. <strong>DiCon</strong> closes both gaps with a CLIP-inspired cross-modal pre-training stage and a dual-signed interaction graph, and introduces <strong>Positive DDI Rate (PDR)</strong> to evaluate synergy coverage rather than safety alone.</p>
 </div>
