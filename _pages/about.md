@@ -12,8 +12,9 @@ redirect_from:
   <h1 class="main-heading">Yongkang Zhang</h1>
 
   <p class="lead-paragraph">
-    I am Yongkang Zhang, an undergraduate student in Computer Science at
-    <strong>Huazhong Agricultural University</strong> and a long-term
+    I am Yongkang Zhang, an <strong>Incoming Ph.D. student at Peking University</strong>
+    (from <strong>2026.09</strong>), currently finishing my B.E. in Computer Science at
+    <strong>Huazhong Agricultural University</strong>, and a long-term
     <strong>Multimodal Large Model Algorithm Intern</strong> at
     <strong>ByteDance TikTok Content Understanding</strong>.
   </p>
@@ -41,6 +42,21 @@ redirect_from:
 Experience
 --------------
 <div class="experience-container">
+  <div class="experience-card experience-card--pku">
+    <div class="experience-mark experience-mark--pku" aria-hidden="true">
+      <img class="experience-logo experience-logo--pku" src="{{ '/images/icons/pku.svg' | relative_url }}" alt="">
+    </div>
+    <div class="experience-info">
+      <strong>Peking University</strong><br>
+      <em>2026.09 - Present · Beijing</em><br>
+      Incoming Ph.D. Student<br>
+      <span class="experience-note">
+        Starting Ph.D. study at Peking University from <strong>2026.09</strong>.
+        Research interests: multimodal large models, video generation, and reinforcement learning.
+      </span>
+    </div>
+  </div>
+
   <div class="experience-card experience-card--byte">
     <div class="experience-mark experience-mark--byte" aria-hidden="true">
       <img class="experience-logo experience-logo--byte" src="{{ '/images/icons/bytedance-color.svg' | relative_url }}" alt="">

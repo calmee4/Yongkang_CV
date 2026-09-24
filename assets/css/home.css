@@ -724,6 +724,10 @@
   background: linear-gradient(180deg, #ffffff 0%, #fbfcfd 100%);
 }
 
+.experience-card--pku {
+  background: linear-gradient(180deg, #fbf5f5 0%, #f7eeee 100%);
+}
+
 .experience-card--byte {
   background: linear-gradient(180deg, #f4f8ff 0%, #edf4fb 100%);
 }
