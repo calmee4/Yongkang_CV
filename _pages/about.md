@@ -44,7 +44,7 @@ Experience
 <div class="experience-container">
   <div class="experience-card experience-card--pku">
     <div class="experience-mark experience-mark--pku" aria-hidden="true">
-      <img class="experience-logo experience-logo--pku" src="{{ '/images/icons/pku.svg' | relative_url }}" alt="">
+      <img class="experience-logo experience-logo--pku" src="{{ '/images/icons/pku.png' | relative_url }}" alt="Peking University">
     </div>
     <div class="experience-info">
       <strong>Peking University</strong><br>
