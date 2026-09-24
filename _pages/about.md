@@ -220,9 +220,10 @@ Publications
           <span>2025.03 - 2025.10</span>
         </div>
         <div class="paper-summary">
-          DiCon models medication recommendation with dual-signed drug–drug interactions and
-          cross-modal EHR pre-training, jointly capturing synergistic and adverse relations while
-          aligning diagnoses, procedures, and prescriptions under sparse visit histories.
+          DiCon recommends safer and more synergistic drug combinations from EHRs by combining
+          CLIP-style cross-modal pre-training (symmetric InfoNCE over diagnoses / procedures /
+          medications) with a dual-signed DDI graph that models both synergy and adverse interactions,
+          plus a new Positive DDI Rate (PDR) metric.
         </div>
         <div class="paper-actions">
           <a class="paper-action" href="{{ '/publications/dicon/' | relative_url }}#overview">Overview</a>
@@ -316,7 +317,7 @@ Publications
       <span class="pub-status pub-status--accepted">Accepted</span>
       <span class="pub-list-title">DiCon: A Synergy-Aware Framework for Medication Recommendation via Signed Drug Interaction Modeling and Contextual Pre-training</span><br>
       <span class="pub-list-authors">First Author · Regular / Full Paper Oral · CCF-B · 2025.03 - 2025.10</span>
-      <span class="pub-list-note">Dual-signed DDI modeling and cross-modal EHR pre-training for synergy-aware medication recommendation. <a class="pub-inline-link" href="{{ '/publications/dicon/' | relative_url }}#overview">Overview</a></span>
+      <span class="pub-list-note">CLIP-style InfoNCE pre-training over D/P/M + dual-signed DDI graph + PDR for synergy-aware medication recommendation. <a class="pub-inline-link" href="{{ '/publications/dicon/' | relative_url }}#overview">Overview</a></span>
     </li>
     <li>
       <span class="pub-list-badge">NeurIPS 2026</span>

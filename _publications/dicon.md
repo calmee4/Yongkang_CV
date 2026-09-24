@@ -21,38 +21,44 @@ comments: false
     <span class="paper-tag">First Author</span>
     <span class="paper-tag">2025.03 - 2025.10</span>
   </div>
-  <p><strong>Overview.</strong> DiCon treats medication recommendation as a synergy-aware data management problem over EHRs: instead of modeling drug–drug interactions only as adverse constraints, it jointly encodes synergistic and adverse relations and aligns diagnoses, procedures, and prescriptions under sparse visit histories.</p>
+  <p><strong>Overview.</strong> Medication recommendation from EHRs must do two hard things at once: integrate sparse, heterogeneous clinical codes (diagnoses, procedures, medications), and prescribe combinations that are not only safe but also therapeutically synergistic. Most prior systems treat drug–drug interactions as <em>negative-only</em> constraints and leave beneficial co-prescription signals unused; their pre-training also usually aligns only a pair of modalities. <strong>DiCon</strong> closes both gaps with a CLIP-inspired cross-modal pre-training stage and a dual-signed interaction graph, and introduces <strong>Positive DDI Rate (PDR)</strong> to evaluate synergy coverage rather than safety alone.</p>
 </div>
 
 <figure class="paper-main-figure">
   <a href="{{ '/images/publications/detail/dicon-framework.png' | relative_url }}"><img src="{{ '/images/publications/detail/dicon-framework.png' | relative_url }}" alt="Framework of DiCon"></a>
-  <figcaption class="paper-caption">DiCon combines patient representation via cross-modal pre-training, dual-signed drug interaction modeling, and attention-based fusion for clinically safe and synergistic recommendations.</figcaption>
+  <figcaption class="paper-caption">Pipeline: (a) patient representation via CLIP-style InfoNCE pre-training + residual GRU; (b) dual-signed drug graph for synergy / adverse DDI; (c) multi-head attention fusion for recommendation.</figcaption>
 </figure>
 
 ## Motivation
 
-Prior graph-based medication recommenders usually treat DDIs as negative-only constraints and leave positive synergistic co-prescription signals unused. Pre-training methods also often align only two clinical modalities, which underuses complementary diagnosis–procedure–medication dependencies in sparse EHR data.
+Graph-based recommenders such as GAMENet / SafeDrug / MoleRec mainly regularize <em>adverse</em> DDIs. Synergistic pairs that improve efficacy are missing from the graph schema, so models systematically under-cover clinically validated co-prescriptions. On the representation side, clinical pre-training (G-BERT, RAREMed) stays close to masked code modeling or pairwise modality alignment, and does not jointly pull diagnoses–procedures–medications from the same visit into one space—hurting sparse-visit and new-patient generalization.
 
 ## Method
 
-DiCon builds a signed heterogeneous DDI graph that encodes both synergistic (\(A^+\)) and adverse (\(A^-\)) edges, and uses cross-modal contextual pre-training to align visit-level embeddings across diagnoses, procedures, and medications. An adaptive dual-constraint loss balances accuracy, safety, and beneficial synergy. The paper also introduces Positive DDI Rate (PDR) to measure coverage of clinically validated synergistic drug pairs.
+<ul class="paper-keypoints">
+  <li><strong>CLIP-style cross-modal pre-training (InfoNCE).</strong> For each medical code we build an <em>intrinsic</em> embedding and a <em>contextual</em> embedding aggregated from the other two modalities co-occurring in the same visit. Following CLIP, DiCon aligns the two views with a <strong>symmetric InfoNCE</strong> objective (L2-normalized features, temperature \(\tau\)), so diagnoses, procedures, and medications live in a shared space before recommendation fine-tuning.</li>
+  <li><strong>Temporal patient encoding.</strong> After pre-training, visit-level modality embeddings are fed to residual GRUs to capture longitudinal history, then concatenated into a patient query.</li>
+  <li><strong>Dual-signed drug interaction graph.</strong> A signed GCN propagates over both synergistic edges \(A^+\) and adverse edges \(A^-\), then gates the result with pretrained drug embeddings.</li>
+  <li><strong>Adaptive dual-constraint training.</strong> Recommendation loss mixes BCE, multi-label ranking, and a DDI regularizer whose adaptive weight \(\alpha\) reacts to both adverse rate \(r^-\) and synergistic rate \(r^+\), instead of only punishing bad pairs.</li>
+  <li><strong>PDR metric + synergy DDI resource.</strong> We propose Positive DDI Rate and release curated synergistic DDI pairs extracted from DrugBank for MIMIC-III / MIMIC-IV.</li>
+</ul>
 
 ## Results
 
 <ul class="paper-keypoints">
-  <li>On MIMIC-III and MIMIC-IV, DiCon outperforms strong medication-recommendation baselines on both accuracy-centric and safety–synergy-aware metrics.</li>
-  <li>Dual-signed interaction modeling improves coverage of beneficial co-prescriptions rather than only suppressing adverse pairs.</li>
-  <li>Cross-modal contextual pre-training helps under sparse-visit and new-patient settings.</li>
-  <li>Accepted to IEEE BIBM as a Regular / Full Paper Oral.</li>
+  <li>On <strong>MIMIC-III</strong> and <strong>MIMIC-IV</strong>, DiCon outperforms strong baselines (SafeDrug, MoleRec, VITA, RAREMed, …) on Jaccard / F1 / PRAUC while keeping competitive adverse DDI rates.</li>
+  <li>PDR rises with dual-signed modeling, showing the model recovers beneficial co-prescriptions rather than only avoiding harmful ones.</li>
+  <li>Ablations confirm that InfoNCE pre-training, signed graph modeling, and temporal encoding each contribute measurable gains.</li>
+  <li>Accepted to <strong>IEEE BIBM</strong> as a <strong>Regular / Full Paper Oral</strong>.</li>
 </ul>
 
 <div class="paper-gallery">
   <figure class="paper-figure-card">
     <a href="{{ '/images/publications/detail/dicon-signed-graph.png' | relative_url }}"><img src="{{ '/images/publications/detail/dicon-signed-graph.png' | relative_url }}" alt="Dual-signed DDI graph schema"></a>
-    <figcaption>Negative-only DDI schemas omit synergistic edges; DiCon’s dual-signed graph keeps both efficacy and safety in the same representation space.</figcaption>
+    <figcaption>Negative-only DDI graphs drop synergistic edges; DiCon’s dual-signed schema keeps efficacy (\(A^+\)) and safety (\(A^-\)) in one representation space.</figcaption>
   </figure>
   <figure class="paper-figure-card">
     <a href="{{ '/images/publications/dicon.png' | relative_url }}"><img src="{{ '/images/publications/dicon.png' | relative_url }}" alt="Cover figure of DiCon"></a>
-    <figcaption>The visual summary highlights patient encoding, signed drug-interaction modeling, and recommendation fusion as one pipeline.</figcaption>
+    <figcaption>End-to-end view: CLIP/InfoNCE patient pre-training → signed drug graph → attention-based recommendation.</figcaption>
   </figure>
 </div>
