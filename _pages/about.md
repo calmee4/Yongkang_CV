@@ -12,7 +12,7 @@ redirect_from:
   <h1 class="main-heading">Yongkang Zhang</h1>
 
   <p class="lead-paragraph">
-    I am Yongkang Zhang, an <strong>Incoming Ph.D. student at Peking University</strong>
+    I am Yongkang Zhang, an <strong>Incoming Ph.D. student in Computer Science and Technology at Peking University</strong>
     (from <strong>2026.09</strong>), currently finishing my B.E. in Computer Science at
     <strong>Huazhong Agricultural University</strong>, and a long-term
     <strong>Multimodal Large Model Algorithm Intern</strong> at
