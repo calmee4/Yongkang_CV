@@ -265,7 +265,7 @@ Publications
           <span class="pub-list-badge">NeurIPS 2026</span>
           <span class="pub-status pub-status--accepted">Accepted</span>
           <span>CCF-A</span>
-          <span>Co-first, Second Author</span>
+          <span>Student First Author</span>
         </div>
         <div class="paper-summary">
           IBPO reduces credit-assignment variance in LLM RL under sparse terminal rewards by comparing
