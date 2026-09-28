@@ -341,7 +341,7 @@ Publications
       <span class="pub-list-badge">NeurIPS 2026</span>
       <span class="pub-status pub-status--accepted">Accepted</span>
       <span class="pub-list-title">Reducing Credit Assignment Variance via Counterfactual Reasoning Paths</span><br>
-      <span class="pub-list-authors">Co-first, Second Author · CCF-A</span>
+      <span class="pub-list-authors">Student First Author · CCF-A</span>
       <span class="pub-list-note">IBPO: counterfactual trajectory comparison for process-level credit assignment in LLM RL.</span>
     </li>
     <li>
