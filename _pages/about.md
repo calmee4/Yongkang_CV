@@ -253,12 +253,13 @@ Publications
 
   <div class="publication-card" data-category="all">
     <div class="publication-layout">
-      <div class="pub-figure pub-figure--neurips">
+      <a class="pub-figure pub-figure--neurips" href="{{ '/publications/ibpo/' | relative_url }}">
+        <img src="{{ '/images/publications/ibpo.png' | relative_url }}" alt="Figure for IBPO" loading="lazy">
         <div class="pub-figure-label">
           <span>NeurIPS 2026</span>
           <small>IBPO</small>
         </div>
-      </div>
+      </a>
       <div class="publication-content">
         <strong class="publication-title">Reducing Credit Assignment Variance via Counterfactual Reasoning Paths</strong>
         <div class="paper-meta">
@@ -271,6 +272,10 @@ Publications
           IBPO reduces credit-assignment variance in LLM RL under sparse terminal rewards by comparing
           counterfactual multi-step reasoning trajectories and constructing an implicit process-level
           advantage, improving training stability on math and code reasoning benchmarks.
+        </div>
+        <div class="paper-actions">
+          <a class="paper-action" href="{{ '/publications/ibpo/' | relative_url }}#overview">Overview</a>
+          <a class="paper-action paper-action--ghost" href="{{ '/images/publications/ibpo.png' | relative_url }}">Main Figure</a>
         </div>
       </div>
     </div>
@@ -301,6 +306,38 @@ Publications
         <div class="paper-actions">
           <a class="paper-action" href="{{ '/publications/mobilegen/' | relative_url }}#overview">Overview</a>
           <a class="paper-action paper-action--ghost" href="{{ '/images/publications/mobilegen.png' | relative_url }}">Main Figure</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="publication-card" data-category="all">
+    <div class="publication-layout">
+      <a class="pub-figure pub-figure--arxiv" href="{{ '/publications/xrec/' | relative_url }}">
+        <img src="{{ '/images/publications/xrec.png' | relative_url }}" alt="Figure for X-Rec" loading="lazy">
+        <div class="pub-figure-label">
+          <span>arXiv 2026</span>
+          <small>X-Rec</small>
+        </div>
+      </a>
+      <div class="publication-content">
+        <strong class="publication-title">X-Rec Technical Report</strong>
+        <div class="paper-meta">
+          <span class="pub-list-badge">arXiv 2026</span>
+          <span class="pub-status pub-status--accepted">Technical Report</span>
+          <span>ByteDance TikTok</span>
+          <span>Contributor</span>
+        </div>
+        <div class="paper-summary">
+          X-Rec learns the recommendation distribution directly in the continuous item-embedding space with
+          Riemannian flow matching, using anchor conditioning and a late-interaction diffusion Transformer to
+          generate multiple retrieval triggers. It matches semantic-ID autoregressive retrieval quality with
+          3.46&times; higher throughput, and has been deployed as a retrieval source on TikTok.
+        </div>
+        <div class="paper-actions">
+          <a class="paper-action" href="{{ '/publications/xrec/' | relative_url }}#overview">Overview</a>
+          <a class="paper-action paper-action--ghost" href="https://arxiv.org/abs/2609.29180">arXiv</a>
+          <a class="paper-action paper-action--ghost" href="{{ '/images/publications/xrec.png' | relative_url }}">Main Figure</a>
         </div>
       </div>
     </div>
@@ -342,7 +379,7 @@ Publications
       <span class="pub-status pub-status--accepted">Accepted</span>
       <span class="pub-list-title">Reducing Credit Assignment Variance via Counterfactual Reasoning Paths</span><br>
       <span class="pub-list-authors">Student First Author · CCF-A</span>
-      <span class="pub-list-note">IBPO: counterfactual trajectory comparison for process-level credit assignment in LLM RL.</span>
+      <span class="pub-list-note">IBPO: counterfactual trajectory comparison for process-level credit assignment in LLM RL. <a class="pub-inline-link" href="{{ '/publications/ibpo/' | relative_url }}#overview">Overview</a></span>
     </li>
     <li>
       <span class="pub-list-badge">NeurIPS 2026</span>
@@ -350,6 +387,13 @@ Publications
       <span class="pub-list-title">Learning with Challenges: Adaptive Difficulty-Aware Data Generation for Mobile GUI Agent Training</span><br>
       <span class="pub-list-authors">Co-first, Third Author · CCF-A · 2025.12 - 2026.03</span>
       <span class="pub-list-note">Capability-aligned trajectory generation around the agent's challenge point. <a class="pub-inline-link" href="{{ '/publications/mobilegen/' | relative_url }}#overview">Overview</a></span>
+    </li>
+    <li>
+      <span class="pub-list-badge">arXiv 2026</span>
+      <span class="pub-status pub-status--accepted">Technical Report</span>
+      <span class="pub-list-title">X-Rec Technical Report</span><br>
+      <span class="pub-list-authors">Contributor · ByteDance TikTok · arXiv:2609.29180</span>
+      <span class="pub-list-note">Flow-matching generative retrieval deployed on TikTok; 3.46&times; throughput over SID-AR. <a class="pub-inline-link" href="{{ '/publications/xrec/' | relative_url }}#overview">Overview</a> · <a class="pub-inline-link" href="https://arxiv.org/abs/2609.29180">arXiv</a></span>
     </li>
   </ul>
 </div>

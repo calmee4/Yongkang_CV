@@ -423,6 +423,14 @@
   background: linear-gradient(135deg, #eef5f2 0%, #eef1f8 100%);
 }
 
+.pub-figure--arxiv {
+  background: linear-gradient(135deg, #f8eeee 0%, #eef1f8 100%);
+}
+
+.pub-figure--arxiv {
+  background: linear-gradient(135deg, #f7eeee 0%, #eef2f8 100%);
+}
+
 .publication-content {
   min-width: 0;
   display: flex;
