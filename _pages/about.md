@@ -67,7 +67,7 @@ Experience
     </div>
     <div class="experience-info">
       <strong>ByteDance Feed Quality</strong><br>
-      <em>2026.10 - Present</em><br>
+      <em>2026.10 - Present · Beijing</em><br>
       Research Intern · Interactive World Models<br>
       <span class="experience-note">
         I do research on <strong>interactive world models</strong>: video generation models that
@@ -105,8 +105,8 @@ Experience
       <em>2023.09 - Present · Wuhan</em><br>
       B.E. in Computer Science and Technology<br>
       <span class="experience-note">
-        Consecutive five-semester major rank <strong>1 / 114</strong>, average score
-        <strong>93.6</strong>, GPA <strong>3.95 / 4.00</strong>, and National Scholarship twice.
+        Consecutive six-semester major rank <strong>1 / 114</strong>, average score
+        <strong>93.6</strong>, GPA <strong>3.95 / 4.00</strong>, and National Scholarship <strong>three times</strong>.
         My undergraduate research spans multimodal large models, GUI agents, vision–language
         reasoning, and multi-agent collaboration. Current focus: MLLM architecture, video
         generation, and RL.
@@ -422,5 +422,5 @@ Publications
 Awards
 --------
 <ul class="award-list">
-  <li><strong>National Scholarship</strong> × 2 <span class="award-note">(Top 1%)</span>.</li>
+  <li><strong>National Scholarship</strong> × 3 <span class="award-note">(Top 1%)</span>.</li>
 </ul>
