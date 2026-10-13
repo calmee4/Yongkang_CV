@@ -15,9 +15,11 @@ redirect_from:
     I am Yongkang Zhang, an <strong>Incoming Student in Computer Science and Technology at
     Peking University</strong>
     (from <strong>2026.09</strong>), currently finishing my B.E. in Computer Science at
-    <strong>Huazhong Agricultural University</strong>, and a long-term
-    <strong>Multimodal Large Model Algorithm Intern</strong> at
-    <strong>ByteDance TikTok Content Understanding</strong>.
+    <strong>Huazhong Agricultural University</strong>, and a
+    <strong>Research Intern</strong> at <strong>ByteDance Feed Quality</strong> (from
+    <strong>2026.10</strong>), working on <strong>interactive world models</strong> with
+    <a href="https://jy0205.github.io/" target="_blank" rel="noopener">Yang Jin</a>.
+    Before that, I was a Multimodal Large Model Algorithm Intern at ByteDance TikTok Content Understanding.
   </p>
 
   <p>
@@ -28,10 +30,10 @@ redirect_from:
   </p>
 
   <p>
-    I am currently working on <strong>MLLM architecture</strong>,
+    I am currently working on <strong>interactive world models</strong>,
     <strong>video generation</strong>, and <strong>reinforcement learning</strong>,
-    especially training and post-training of multimodal models, controllable generation,
-    and RL for generative systems.
+    especially video generators that respond to user actions, stay consistent over long horizons,
+    and can be improved with RL post-training.
   </p>
 
   <p>
@@ -53,8 +55,25 @@ Experience
       Incoming Student in Computer Science and Technology<br>
       <span class="experience-note">
         Incoming student in <strong>Computer Science and Technology</strong> at Peking University
-        from <strong>2026.09</strong>. Research interests: multimodal large models, video generation,
-        and reinforcement learning.
+        from <strong>2026.09</strong>. Research interests: interactive world models, video generation,
+        multimodal large models, and reinforcement learning.
+      </span>
+    </div>
+  </div>
+
+  <div class="experience-card experience-card--byte">
+    <div class="experience-mark experience-mark--byte" aria-hidden="true">
+      <img class="experience-logo experience-logo--byte" src="{{ '/images/icons/bytedance-color.svg' | relative_url }}" alt="">
+    </div>
+    <div class="experience-info">
+      <strong>ByteDance Feed Quality</strong><br>
+      <em>2026.10 - Present</em><br>
+      Research Intern · Interactive World Models<br>
+      <span class="experience-note">
+        I do research on <strong>interactive world models</strong>: video generation models that
+        respond to user actions in real time and keep the generated world consistent over long
+        horizons. Mentor:
+        <a href="https://jy0205.github.io/" target="_blank" rel="noopener">Yang Jin</a>.
       </span>
     </div>
   </div>
@@ -65,7 +84,7 @@ Experience
     </div>
     <div class="experience-info">
       <strong>ByteDance TikTok Content Understanding</strong><br>
-      <em>2026.02 - Present · Shanghai</em><br>
+      <em>2026.02 - 2026.09 · Shanghai</em><br>
       Multimodal Large Model Algorithm Intern<br>
       <span class="experience-note">
         I work on multimodal post-training, evaluation, data-centric iteration, and end-to-end
@@ -102,11 +121,11 @@ Experience
     <div class="experience-info">
       <strong>Current Research Direction</strong><br>
       <em>2026 - Present</em><br>
-      MLLM Architecture, Video Generation, and RL<br>
+      Interactive World Models, Video Generation, and RL<br>
       <span class="experience-note">
-        I am currently focused on MLLM architecture, video generation, and reinforcement learning:
-        how multimodal models are trained and post-trained, how video generators stay controllable
-        over longer horizons, and how RL can improve those systems rather than only downstream agents.
+        I am currently focused on interactive world models: how action-conditioned video generators
+        stay controllable and consistent over long horizons, how they can run in real time, and how
+        RL can improve the generators themselves rather than only downstream agents.
       </span>
     </div>
   </div>
